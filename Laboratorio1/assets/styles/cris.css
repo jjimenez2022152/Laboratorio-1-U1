@@ -84,3 +84,7 @@ a{
     right: 10px;
 }
 
+button:hover{
+    color: #0f1010;
+    background-color: #fff;
+}
