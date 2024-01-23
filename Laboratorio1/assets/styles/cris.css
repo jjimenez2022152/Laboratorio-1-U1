@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(90deg, rgba(192,192,227,1) 0%, rgba(123,147,250,1) 100%);
+}
+
+.title{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+}
+
+.texto{
+    font-size: 20px;
+}
+.contenedor1{
+    border-radius: 8px;
+}
