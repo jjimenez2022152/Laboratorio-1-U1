@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     margin: 0;
     padding: 0;
 }
@@ -37,3 +38,49 @@ p {
 .title{
     color: white;
 }
+
+.menu{
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+}
+
+a{
+    color: #fff;   
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    min-width: 100%;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.slider-btn:first-child {
+    left: 10px;
+}
+
+.slider-btn:last-child {
+    right: 10px;
+}
+

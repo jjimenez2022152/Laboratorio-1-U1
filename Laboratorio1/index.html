@@ -8,12 +8,20 @@
 </head>
 <body>
     <header>
+        <div>
+            <nav class="menu">
+                <ul>
+                  <li><a href="#">Portafolio</a></li>
+                  <li><a href="#">Re-Diseño</a></li>
+                </ul>
+              </nav>
+        </div>
         <h1 class="title">Cristiano Ronaldo</h1>
     </header>
 
     <section>
         <h1>Quien es Cristiano Ronaldo?</h1>
-        <img src="./assets/resources/img/Cristiano1.jpg" alt="Cristiano Ronaldo">
+        <img src="./assets/resources/img/Cristiano1.jpg"  alt="Cristiano Ronaldo">
         <p>
             Cristiano Ronaldo es un futbolista portugués ampliamente reconocido como uno de los mejores jugadores de la historia. Nació el 5 de febrero de 1985 en Funchal, Madeira. A lo largo de su carrera, ha jugado para clubes como el Manchester United, el Real Madrid y la Juventus, cosechando numerosos títulos y premios.
         </p>
@@ -53,5 +61,35 @@
         <p>-Liga de Naciones de la UEFA 2018/19.</p> 
         <img src="./assets/resources/img/Cristiano8.jpg" alt="">         
     </section>
+
+    <section>
+        <div class="slider-container">
+            <p><strong>¿Por qué lo admiro?</strong></p>
+                <p>Admiro mucho a Cristiano Ronaldo por varias razones, como por ejemplo su 
+                    trayectoria en el fútbol. Esta ha sido tremenda y muy pocos jugadores pueden
+                    compararse un poco a tal carrera, al igual que ha sido un jugador que ha
+                hecho presencia en momentos importantes, como cuando el equipo lo necesita.</p>
+                
+                <p>
+                    Además, es conocido como Mr. Champions por ser figura en esta competición, que
+                     es la más famosa en el fútbol y mi favorita, siendo el máximo goleador de esta
+                      y el máximo goleador del fútbol. Además de su pasado, de pasar de la pobreza y
+                       con muchos problemas en su hogar, con su gran disciplina y talento logró llegar
+                        a donde está. Sin duda, para mí, un ejemplo a seguir.
+                </p>
+            
+            <div class="slider-content">
+                <div class="slider-item"><img src="./assets/resources/img/Cristiano4.jpg" alt="Imagen 1"></div>
+                <div class="slider-item"><img src="./assets/resources/img/Cristiano6.jpg" alt="Imagen 2"></div>
+                <div class="slider-item"><img src="./assets/resources/img/Cristiano7.jpg" alt="Imagen 3"></div>
+            </div>
+            <button class="slider-btn" onclick="prevSlide()">Anterior</button>
+            <button class="slider-btn" onclick="nextSlide()">Siguiente</button>
+            
+        </div>
+
+        
+    </section>
+    <script src="./assets/scripts/cristiano.js"></script>
 </body>
 </html>
