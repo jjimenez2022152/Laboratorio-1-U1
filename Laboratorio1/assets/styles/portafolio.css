@@ -28,3 +28,37 @@ section{
 a{
     color: #4b6cb7;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.foto-container {
+    display: flex;
+}
+
+.foto-container img {
+    width: 300px; 
+    height: auto; 
+    margin-right: 10px;
+    margin-left: 60px;  
+}
+
+.foto2-container {
+    display: flex;
+}
+
+.foto2-container img {
+    width: 500px; 
+    height: auto; 
+    margin-right: 10px;
+    margin-left: 60px;  
+}
+
+.foto3-container img{
+    width: 400px; 
+    height: auto; 
+    margin-right: 10px;
+    margin-left: 60px;  
+}
