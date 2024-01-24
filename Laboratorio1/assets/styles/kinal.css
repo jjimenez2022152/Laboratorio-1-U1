@@ -1,13 +1,7 @@
-
-header{
-    background-color: #131c46;
+body{
+    background-color: #DCF2F1;
 }
 
-.nav1{
-    background: #131c46;
-    color: white;
-    padding: 10px;
-}
 
 nav {
     text-align: center;
@@ -36,3 +30,28 @@ a {
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.slider-container {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px; 
+}
+
+  
+.nav1 {
+    background-color: #3498db ; 
+    color: white;
+    padding: 10px;
+}
+
+.section1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px; 
+    margin: 20px 0; 
+    background-color: #D5F0C1; 
+    border: 1px solid #ccc; 
+}
+  

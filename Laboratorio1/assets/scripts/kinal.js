@@ -1,14 +1,17 @@
-// script.js
+document.addEventListener("DOMContentLoaded", function () {
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".slide");
 
-// Función para redireccionar al archivo seleccionado
-function irA(archivo) {
-    if (archivo) {
-      window.location.href = archivo;
-    }
+  function showSlide(index) {
+    slides.forEach((slide) => (slide.style.display = "none"));
+    slides[index].style.display = "block";
   }
-  
-  // Asignar la función al evento onchange del menú desplegable
-  document.getElementById('menuDesplegable').onchange = function () {
-    irA(this.value);
-  };
-  
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  setInterval(nextSlide, 3000); // Cambia el slide cada 3 segundos (ajusta según tus necesidades)
+  showSlide(currentSlide);
+});
