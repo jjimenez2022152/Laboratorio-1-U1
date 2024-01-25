@@ -41,7 +41,7 @@ a {
 
   
 .nav1 {
-    background-color: #3498db ; 
+    background-color: #000000 ; 
     color: white;
     padding: 10px;
 }
@@ -51,7 +51,39 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px; 
     margin: 20px 0; 
-    background-color: #D5F0C1; 
+    background-color: #000000; 
     border: 1px solid #ccc; 
 }
-  
+
+.p1{
+    color: #ccc;
+}
+
+h1{
+    color: white;
+}
+
+
+.transparente{
+    background-color: rgba(58, 51, 51, 0.5);
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenedor img:hover {
+    transform: scale(1.1);
+}
+
