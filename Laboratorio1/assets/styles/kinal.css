@@ -93,9 +93,9 @@ h1{
 
 .fila > div {
     flex: 1;
-    margin-right: 20px; /* Espacio entre elementos, puedes ajustarlo según tu preferencia */
+    margin-right: 20px; 
 }
 
 .fila > div:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento */
+    margin-right: 0; 
 }
