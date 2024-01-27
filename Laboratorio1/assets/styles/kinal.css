@@ -87,3 +87,15 @@ h1{
     transform: scale(1.1);
 }
 
+.fila {
+    display: flex;
+}
+
+.fila > div {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre elementos, puedes ajustarlo según tu preferencia */
+}
+
+.fila > div:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
